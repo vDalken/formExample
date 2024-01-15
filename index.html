@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FormExample</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div>
+            <header class="logo">
+                <h1>Mindera <span>School</span></h1>
+            </header>
+            <main>
+                <form action="">
+                    <header>
+                        <h2>Criar conta</h2>
+                        <p>Apenas demora alguns segundos</p>
+                    </header>
+                    <label for="name">Nome</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        value="Lara Croft"
+                    />
+
+                    <label for="username">Nome de Utilizador</label>
+                    <input
+                        type="text"
+                        id="username"
+                        name="username"
+                        value="Rambo42"
+                    />
+
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        value="rocky@jones.com"
+                    />
+
+                    <label for="password">Palavra-Passe</label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Palavra-Passe"
+                    />
+
+                    <input type="submit" value="Criar" />
+                </form>
+                <form action="">
+                    <header>
+                        <h2>Iniciar Sessão</h2>
+                    </header>
+                    <label for="username-login">Nome de Utilizador</label>
+                    <input
+                        type="text"
+                        id="username-login"
+                        name="username-login"
+                        placeholder="Nome de Utilizador"
+                    />
+
+                    <label for="password-login">Palavra-Passe</label>
+                    <input
+                        type="password"
+                        id="password-login"
+                        name="password-login"
+                        placeholder="Palavra-Passe"
+                    />
+
+                    <input type="submit" value="Entrar" />
+                </form>
+            </main>
+            <footer>
+                <small>We craft software with people we love.</small>
+            </footer>
+        </div>
+    </body>
+</html>
